@@ -1,0 +1,3 @@
+[submodule "RumBoot"]
+	path = RumBoot
+	url = git@git.module.ru:verification-components/RumBoot
