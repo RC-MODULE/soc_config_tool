@@ -52,3 +52,20 @@ BAR[0].type      = 0x4
 mode = wfiloop
 
 ```
+
+
+# Проверенные DIMM модули памяти
+
+Проверка осуществлялась на MT143.05 с теми моделями памяти, которые были под рукой. 
+Проверялась минимальная работоспособность (загрузка u-boot из DDR).
+
+| DIMM Модуль                  | Чипы памяти 	        | Значение в ini 	   | Работоспособность 	       | Примечание 	                  |
+|-------------                 |-------------	       |----------------	|-------------------	|------------                     |
+| Crucial CT25664BF160B.C8FKD  | CT41K256M8DA-125:K    |  mt41k256m8     	| работает                | рекомендуется для mt41k256m8 в ini |
+| Neo Forza NMSO320C81         | Goldkey GL2081600H0   |  mt41k256m8        | работает                |            	                    |
+| SK Hynix HMT351S6EFR8A       | Hynix H5TC2G83EFR     |  mt41k256m8        | работает                |            	                    |
+| SK Hynix HMT312S6DFR6C       | Hynix H5TQ2G63DFA     |  mt41k256m8        | работает                |            	                    |
+| SK Hynix HMT312S6DFR6C       | Hynix H5TQ2G63DFA     |  mt41k256m8        | работает                |            	                    |
+| Transcend TS256MSK64W6N      | K4B2G08               |  mt41k256m8        | работает                |            	                    |
+| AMD R532G1601S1SL-UO         | AMD 3EY4787MB6K       |                    | не работает              |            	                 |
+| Kingston KVR13KS9S6/2        | Kingston NO1457-05    |                	| не работает              |                                 |
