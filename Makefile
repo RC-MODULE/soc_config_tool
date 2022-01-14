@@ -18,7 +18,7 @@ output/%.bin: configs/%.ini
 	rumboot-packimage -C -f $@
 
 recompile:
-	git submodule update --init RumBoot
+#	git submodule update --init RumBoot
 	mkdir -p build
 	cd build && cmake ../RumBoot -DRUMBOOT_PLATFORM=basis -DCMAKE_BUILD_TYPE=Production
 	cd build && make rumboot-basis-Production-spl-bconfig.all
